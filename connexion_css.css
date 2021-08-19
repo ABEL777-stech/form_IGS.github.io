@@ -1,0 +1,56 @@
+body{
+    background-color:teal;
+}
+.Cadre_formulaire{
+    height:22.5rem;
+    width:22.5rem;
+    margin: auto;
+    border:0px solid;
+    margin-top: 10%;
+    background-color:white;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: gray; 
+}
+input{
+    font-size: 18px;
+    width:80%;
+    border: none;
+    outline: none;
+}
+label{
+    position: relative;
+    left: 22px;
+}
+.entrer_info{
+    height: 40px;
+    width: 300px;
+    border: 2px solid gray;
+    display: flex;
+    margin: 0 auto;
+    color:#666666;
+}
+i{
+   padding: 8px 8px;
+}
+.btn{
+    display: flex;
+    width:300px;
+    padding-left:25px;
+    font-size: 45px;
+    margin: 25px auto;
+    cursor: pointer;
+    border: 0px solid black;
+    border-radius: 50px;
+    color:white;
+    background-color:#0099FF;
+    transform: scale(.9 ,.9);
+}
+.btn:hover{
+        color: brown;
+        background-color:seagreen;
+}
